@@ -1,0 +1,6 @@
+- name: hello babu printing
+  hosts: web
+  tasks:
+  - name:  print hello babu,how are you?
+    ansible.builtin.debuug:
+    msg: "hello this is practice,are you interseted"
