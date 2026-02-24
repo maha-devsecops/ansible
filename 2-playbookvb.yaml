@@ -1,6 +1,6 @@
 - name: hello babu printing
   hosts: web
   tasks:
-  - name: print hello babu how are you
-    ansible.builtin.debug:
-    msg: "hello this is practice,are you interseted"
+    - name: print hello babu how are you
+      ansible.builtin.debug:
+      msg: "hello this is practice,are you interested"
