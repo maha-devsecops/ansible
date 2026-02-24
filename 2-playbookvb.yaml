@@ -2,5 +2,5 @@
   hosts: web
   tasks:
   - name:  print hello babu,how are you?
-    ansible.builtin.debuug:
+    ansible.builtin.debug:
     msg: "hello this is practice,are you interseted"
